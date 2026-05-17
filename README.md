@@ -159,7 +159,7 @@ The application connects to a MongoDB backend via REST APIs. Ensure your backend
 - Click to navigate to project details
 
 ### Project Detail
-- Kanban board with three columns (To Do, In Progress, Done)
+- board with three columns (To Do, In Progress, Done)
 - Create new tasks
 - Drag tasks between statuses
 - Delete tasks (with confirmation)
