@@ -99,7 +99,7 @@ export const memberApi = createApi({
 
     addMemberToProject: builder.mutation({
       query: ({ projectId, email }) => ({
-        url: `/project-member/${projectId}/members`,
+        url: `/project-member/add-member/${projectId}/members`,
         method: 'POST',
         data: { email },
       }),
@@ -120,7 +120,7 @@ export const memberApi = createApi({
 
     removeMemberFromProject: builder.mutation({
       query: ({ projectId, memberId }) => ({
-        url: `/project-member/${projectId}/members`,
+        url: `/project-member/remove-member/${projectId}/members`,
         method: 'DELETE',
         data: { memberId, projectId },
       }),
