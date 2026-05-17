@@ -203,29 +203,8 @@ The application uses Tailwind CSS with a clean, modern design:
 - JWT token stored in localStorage
 - Token included in all API requests via Axios interceptor
 - Protected routes (login required)
-- Role-based access control
+- Role-based access control (Admin , User)
 
-## Future Enhancements
 
-- Task filtering and search
-- User profile management
-- Project analytics and reports
-- Email notifications
-- Real-time updates with WebSockets
-- Task comments and activity logs
-- File attachment support
 
-## Contributing
 
-1. Create feature branch: `git checkout -b feature/feature-name`
-2. Commit changes: `git commit -m 'Add feature'`
-3. Push to branch: `git push origin feature/feature-name`
-4. Create Pull Request
-
-## License
-
-This project is licensed under the MIT License.
-
-## Support
-
-For issues or questions, please contact the development team.
