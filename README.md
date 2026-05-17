@@ -22,7 +22,7 @@ A modern, clean React.js application for managing team projects and tasks. Built
 - **State Management**: Redux Toolkit with Slices
 - **Styling**: Tailwind CSS
 - **Routing**: React Router v7
-- **HTTP Client**: Axios
+- **HTTP Client**: Redux Toolkit api
 - **Build Tool**: Vite
 - **Database**: MongoDB (backend)
 
@@ -30,7 +30,7 @@ A modern, clean React.js application for managing team projects and tasks. Built
 
 ### Prerequisites
 
-- Node.js (v14+)
+- Node.js (v20+)
 - npm or pnpm
 
 ### Installation
