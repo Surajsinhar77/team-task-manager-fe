@@ -101,7 +101,7 @@ export const memberApi = createApi({
       query: ({ projectId, email }) => ({
         url: `/project-member/add-member/${projectId}/members`,
         method: 'POST',
-        data: { email },
+        data: { email, projectId },
       }),
       transformResponse: (response) => asEntity(response, ['project']),
       invalidatesTags: (result, error, { projectId }) => [
